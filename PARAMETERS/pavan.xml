@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test  name="Default test">
+   
+   <parameter name ="url" value ="https://twitter.com/login?lang=en"/>
+   <parameter name ="urll" value ="https://twitter.com/login?lang=en"/>
+    <classes>
+      <class name="DEMOTEST.ParameterPractice"/>
+       <class name="DEMOTEST.Worstdemo"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+
